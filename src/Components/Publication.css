@@ -1,0 +1,22 @@
+.fluid {
+	background-color: white;
+	margin: 5px;
+	padding: 5px;
+	color: black;
+	scroll-behavior: smooth;
+}
+
+.fluid a{
+	color: black;
+}
+
+.fluid a:hover {
+	
+	opacity: .8;
+	color: black;
+	}
+
+.date1 {
+	text-align: right;
+}
+

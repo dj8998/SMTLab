@@ -1,0 +1,37 @@
+.bodyy{
+	background-color: #888888;
+	}
+
+.jumbotron {
+	padding-bottom: 10px;
+	margin-bottom: 0px;
+}
+
+.row{
+	justify-content: center;
+	display: flex;
+	margin-bottom: 0px;
+	padding: 5px;
+}
+
+.shadow-5 {
+		transition: transform .5s;
+	}
+.shadow-5:hover {
+	transform: scale(1.03);
+}
+
+.pa2 {
+	background-color: #343a40;
+	color: white ;
+	padding: 0px;
+	border: 2px black;
+}
+
+.text-black-50 {
+	color: white;
+}
+
+.poiner:hover {
+	text-decoration: none;
+}

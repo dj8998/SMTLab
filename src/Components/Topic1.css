@@ -1,0 +1,31 @@
+.topic1{
+	background-image: url("/assets/background_topic1.jpg");
+	background-position: center;
+	background-repeat: no-repeat;  
+ 	background-size: 100% 100%;
+ 	opacity: 1;
+ 	height: auto;
+ 	margin: auto;
+ 	padding: auto;
+ 	justify-content: center;
+ 	text-align: center;
+ 	padding-top: 160px;
+ }
+
+ .boxxx{
+		text-align: center;
+		justify-content: center;
+		color: white;
+		border: 2px black;
+
+	}
+
+.shadow-4 {
+			padding: 20px;
+			width: 70%;
+			margin: auto;
+			font-weight: bold;
+			font-size: 2.5rem;
+			margin-top: auto;
+			
+ }

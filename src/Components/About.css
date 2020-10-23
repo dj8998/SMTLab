@@ -1,0 +1,38 @@
+.row {
+	width: 100%;
+	height: 100%;
+	margin-top: 20px;
+	  background-color: #0000;
+	   font-family: "Montserrat" !important;
+}
+
+.aboutimg img {
+	float: right;
+	width: 50%;
+
+}
+
+.aboutimg h1 {
+	font-weight: bold;
+	font-size: 50px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid black;
+}
+
+.leftsection {
+	padding-top: 20px;
+	padding-left: 30px;
+}
+.leftlist li {
+	border-bottom: 1px solid black;
+	margin-left: -40px;
+	display: block;
+	padding:5px;
+	color: solid black;
+}
+
+@media screen and (min-width: 600px) {
+  .row {
+    width: 100%;
+  }
+}

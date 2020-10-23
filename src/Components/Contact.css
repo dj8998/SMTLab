@@ -1,0 +1,59 @@
+.mapset {
+	padding: 20px;
+}
+
+.textset {
+	margin-top: 20px;
+	color: black;
+	height: 200px;
+
+}
+
+.contform{
+	position: absolute;
+	left: 750px;
+	bottom: 140px;
+	text-align: center;
+	margin-top: 70px;
+}
+
+/*.btn {
+	border-radius: 2px;
+}
+*/
+@media screen and (max-width: 500px) {
+  .contform{
+	position: relative;
+	left: 10px;
+	bottom: 50px;
+}
+
+.textset {
+	margin-left: 10px;
+
+}
+ }
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: landscape)
+  {
+  	 
+     	.contform{
+		position: absolute;
+		left: 650px;
+		bottom: 340px;
+		text-align: center;
+		margin-top: 70px;
+}
+  }
+
+ 
+ @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait) 
+     {
+     	.contform{
+		position: absolute;
+		left: 550px;
+		bottom: 540px;
+		text-align: center;
+		margin-top: 70px;
+}
+     }

@@ -1,0 +1,83 @@
+.header {
+  overflow: hidden;
+  background-color: #dbdbdb;
+  padding: 5px 8px;
+}
+
+.logo img{
+ width: 80%;
+ margin-right: 20px;
+}
+
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a:hover {
+ 
+    text-decoration:none;
+    color: black;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+.headding {
+    margin-top: 80px;
+    margin-left: -50px;
+    font-size: 3vw !important;
+    font-weight: bold;
+
+    
+}
+
+.rightnames {
+  color: #595959 !important;
+}
+
+.rightnames:hover {
+  color: black !important;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+
+  .logo img{
+ width: 30%;
+}
+
+  .headding {
+    margin-top: 5px;
+    margin-left: 0px;
+    font-size: 5vw !important;
+    font-weight: bold;
+}
+}

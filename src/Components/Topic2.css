@@ -1,0 +1,72 @@
+.topic2{
+	background-color: #e8e4e1;
+ 	opacity: 1;
+ 	height: auto;
+ 	margin: auto;
+ 	padding: auto;
+ 	justify-content: center;
+ 	text-align: center;
+ 	padding-top: 20px;
+ }
+
+ .boxxx{
+		text-align: center;
+		justify-content: center;
+		color: white;
+		border: 2px black;
+
+	}
+
+.shadow-4 {
+			padding: 20px;
+			width: 80%;
+			margin: auto;
+			font-weight: bold;
+			font-size: 2.5rem;
+			margin-top: auto;
+			background-color: black;
+			opacity: .8;
+			
+ }
+
+ 
+.react-player {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image1{
+	margin-left: auto;
+	padding-left: 50px;
+
+}
+
+.image2{
+	margin-right: auto;
+	padding-right: 30px;
+}
+
+@media screen and (max-width: 500px) {
+	
+.image1{
+	margin-left: 0;
+	
+}
+
+.image2{
+	margin-left: 70px;
+}
+
+.shadow-4 {
+			padding: 20px;
+			width: 80%;
+			margin: auto;
+			font-weight: bold;
+			font-size: 1.5rem;
+			margin-top: auto;
+			background-color: black;
+			opacity: .8;
+			
+ }
+
+}
